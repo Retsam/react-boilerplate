@@ -1,0 +1,5 @@
+set -e
+npm run lint
+npm run prettier:check
+echo "Checking types..."
+npm run tsc
