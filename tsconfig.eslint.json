@@ -3,10 +3,10 @@
 // project, to avoid performance penalties.
 // So this adds non-runtime files - like config files - to the "include" config.
 {
-  "extends": "./tsconfig.json",
-  "include": [
-    // repeated from base configs
-    "src"
-    // eslint-only
-  ]
+    "extends": "./tsconfig.json",
+    "include": [
+        // repeated from base configs
+        "src"
+        // eslint-only
+    ]
 }
