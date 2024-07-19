@@ -6,7 +6,9 @@
     "extends": "./tsconfig.json",
     "include": [
         // repeated from base configs
-        "src"
+        "src",
         // eslint-only
+        "*.config.ts",
+        "*.config.js"
     ]
 }
